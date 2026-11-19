@@ -1,0 +1,435 @@
+{
+ "q1_base": [
+  {
+   "ticket": "T-1001",
+   "action": "REFUND",
+   "kb_article": "returns-within-30-days",
+   "correct": true,
+   "calls": [
+    {
+     "label": "handle_ticket",
+     "in": 523,
+     "cached": 0,
+     "out": 483,
+     "points": 8814
+    }
+   ],
+   "points": 8814
+  },
+  {
+   "ticket": "T-1002",
+   "action": "SEND_ARTICLE",
+   "kb_article": "digital-license-no-refund",
+   "correct": true,
+   "calls": [
+    {
+     "label": "handle_ticket",
+     "in": 517,
+     "cached": 0,
+     "out": 495,
+     "points": 8976
+    }
+   ],
+   "points": 8976
+  },
+  {
+   "ticket": "T-1003",
+   "action": "ESCALATE_TIER2",
+   "kb_article": "custom-items-no-replace",
+   "correct": true,
+   "calls": [
+    {
+     "label": "handle_ticket",
+     "in": 508,
+     "cached": 0,
+     "out": 480,
+     "points": 8724
+    }
+   ],
+   "points": 8724
+  },
+  {
+   "ticket": "T-1004",
+   "action": "REPLACE",
+   "kb_article": "damage-replacement-7-days",
+   "correct": true,
+   "calls": [
+    {
+     "label": "handle_ticket",
+     "in": 511,
+     "cached": 0,
+     "out": 494,
+     "points": 8943
+    }
+   ],
+   "points": 8943
+  },
+  {
+   "ticket": "T-1091",
+   "action": "SEND_ARTICLE",
+   "kb_article": "subscription-cooling-off",
+   "correct": true,
+   "calls": [
+    {
+     "label": "handle_ticket",
+     "in": 517,
+     "cached": 0,
+     "out": 493,
+     "points": 8946
+    }
+   ],
+   "points": 8946
+  }
+ ],
+ "q1_new": [
+  {
+   "ticket": "T-1001",
+   "action": "REFUND",
+   "kb_article": "returns-within-30-days",
+   "correct": true,
+   "calls": [
+    {
+     "label": "handle_ticket",
+     "in": 447,
+     "cached": 0,
+     "out": 46,
+     "points": 2031
+    }
+   ],
+   "points": 2031
+  },
+  {
+   "ticket": "T-1002",
+   "action": "SEND_ARTICLE",
+   "kb_article": "digital-license-no-refund",
+   "correct": true,
+   "calls": [
+    {
+     "label": "handle_ticket",
+     "in": 441,
+     "cached": 0,
+     "out": 39,
+     "points": 1908
+    }
+   ],
+   "points": 1908
+  },
+  {
+   "ticket": "T-1003",
+   "action": "ESCALATE_TIER2",
+   "kb_article": "custom-items-no-replace",
+   "correct": true,
+   "calls": [
+    {
+     "label": "handle_ticket",
+     "in": 428,
+     "cached": 0,
+     "out": 39,
+     "points": 1869
+    }
+   ],
+   "points": 1869
+  },
+  {
+   "ticket": "T-1004",
+   "action": "REPLACE",
+   "kb_article": "damage-replacement-7-days",
+   "correct": true,
+   "calls": [
+    {
+     "label": "handle_ticket",
+     "in": 430,
+     "cached": 0,
+     "out": 36,
+     "points": 1830
+    }
+   ],
+   "points": 1830
+  },
+  {
+   "ticket": "T-1091",
+   "action": "SEND_ARTICLE",
+   "kb_article": "subscription-cooling-off",
+   "correct": true,
+   "calls": [
+    {
+     "label": "handle_ticket",
+     "in": 434,
+     "cached": 0,
+     "out": 38,
+     "points": 1872
+    }
+   ],
+   "points": 1872
+  }
+ ],
+ "q2_base": [
+  {
+   "ticket": "T-1001",
+   "action": "REFUND",
+   "kb_article": "returns-within-30-days",
+   "correct": true,
+   "calls": [
+    {
+     "label": "triage",
+     "in": 8457,
+     "cached": 0,
+     "out": 488,
+     "points": 32691
+    },
+    {
+     "label": "retrieve",
+     "in": 596,
+     "cached": 0,
+     "out": 46,
+     "points": 2478
+    },
+    {
+     "label": "compose",
+     "in": 1193,
+     "cached": 0,
+     "out": 491,
+     "points": 10944
+    },
+    {
+     "label": "audit",
+     "in": 6722,
+     "cached": 0,
+     "out": 488,
+     "points": 27486
+    }
+   ],
+   "points": 73599
+  },
+  {
+   "ticket": "T-1002",
+   "action": "SEND_ARTICLE",
+   "kb_article": "digital-license-no-refund",
+   "correct": true,
+   "calls": [
+    {
+     "label": "triage",
+     "in": 8453,
+     "cached": 0,
+     "out": 495,
+     "points": 32784
+    },
+    {
+     "label": "retrieve",
+     "in": 606,
+     "cached": 0,
+     "out": 39,
+     "points": 2403
+    },
+    {
+     "label": "compose",
+     "in": 1194,
+     "cached": 0,
+     "out": 480,
+     "points": 10782
+    },
+    {
+     "label": "audit",
+     "in": 6705,
+     "cached": 0,
+     "out": 494,
+     "points": 27525
+    }
+   ],
+   "points": 73494
+  },
+  {
+   "ticket": "T-1003",
+   "action": "ESCALATE_TIER2",
+   "kb_article": "custom-items-no-replace",
+   "correct": true,
+   "calls": [
+    {
+     "label": "triage",
+     "in": 8437,
+     "cached": 0,
+     "out": 494,
+     "points": 32721
+    },
+    {
+     "label": "retrieve",
+     "in": 604,
+     "cached": 0,
+     "out": 39,
+     "points": 2397
+    },
+    {
+     "label": "compose",
+     "in": 1179,
+     "cached": 0,
+     "out": 495,
+     "points": 10962
+    },
+    {
+     "label": "audit",
+     "in": 6706,
+     "cached": 0,
+     "out": 494,
+     "points": 27528
+    }
+   ],
+   "points": 73608
+  },
+  {
+   "ticket": "T-1004",
+   "action": "REPLACE",
+   "kb_article": "damage-replacement-7-days",
+   "correct": true,
+   "calls": [
+    {
+     "label": "triage",
+     "in": 8438,
+     "cached": 0,
+     "out": 493,
+     "points": 32709
+    },
+    {
+     "label": "retrieve",
+     "in": 603,
+     "cached": 0,
+     "out": 36,
+     "points": 2349
+    },
+    {
+     "label": "compose",
+     "in": 1176,
+     "cached": 0,
+     "out": 492,
+     "points": 10908
+    },
+    {
+     "label": "audit",
+     "in": 6701,
+     "cached": 0,
+     "out": 492,
+     "points": 27483
+    }
+   ],
+   "points": 73449
+  },
+  {
+   "ticket": "T-1091",
+   "action": "SEND_ARTICLE",
+   "kb_article": "subscription-cooling-off",
+   "correct": true,
+   "calls": [
+    {
+     "label": "triage",
+     "in": 8448,
+     "cached": 0,
+     "out": 493,
+     "points": 32739
+    },
+    {
+     "label": "retrieve",
+     "in": 612,
+     "cached": 0,
+     "out": 38,
+     "points": 2406
+    },
+    {
+     "label": "compose",
+     "in": 1185,
+     "cached": 0,
+     "out": 494,
+     "points": 10965
+    },
+    {
+     "label": "audit",
+     "in": 6712,
+     "cached": 0,
+     "out": 494,
+     "points": 27546
+    }
+   ],
+   "points": 73656
+  }
+ ],
+ "q2_new": [
+  {
+   "ticket": "T-1001",
+   "action": "REFUND",
+   "kb_article": "returns-within-30-days",
+   "correct": true,
+   "calls": [
+    {
+     "label": "compose",
+     "in": 346,
+     "cached": 0,
+     "out": 46,
+     "points": 1728
+    }
+   ],
+   "points": 1728
+  },
+  {
+   "ticket": "T-1002",
+   "action": "SEND_ARTICLE",
+   "kb_article": "digital-license-no-refund",
+   "correct": true,
+   "calls": [
+    {
+     "label": "compose",
+     "in": 340,
+     "cached": 0,
+     "out": 39,
+     "points": 1605
+    }
+   ],
+   "points": 1605
+  },
+  {
+   "ticket": "T-1003",
+   "action": "ESCALATE_TIER2",
+   "kb_article": "custom-items-no-replace",
+   "correct": true,
+   "calls": [
+    {
+     "label": "compose",
+     "in": 327,
+     "cached": 0,
+     "out": 39,
+     "points": 1566
+    }
+   ],
+   "points": 1566
+  },
+  {
+   "ticket": "T-1004",
+   "action": "REPLACE",
+   "kb_article": "damage-replacement-7-days",
+   "correct": true,
+   "calls": [
+    {
+     "label": "compose",
+     "in": 329,
+     "cached": 0,
+     "out": 36,
+     "points": 1527
+    }
+   ],
+   "points": 1527
+  },
+  {
+   "ticket": "T-1091",
+   "action": "SEND_ARTICLE",
+   "kb_article": "subscription-cooling-off",
+   "correct": true,
+   "calls": [
+    {
+     "label": "compose",
+     "in": 333,
+     "cached": 0,
+     "out": 38,
+     "points": 1569
+    }
+   ],
+   "points": 1569
+  }
+ ]
+}
