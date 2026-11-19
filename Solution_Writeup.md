@@ -13,8 +13,6 @@ All four public tickets (T-1001 to T-1004) and the holdout T-1091 keep the corre
 - Every figure comes from `CostSession` (`shared/billing.py`), so it uses the repository's own token counting (tiktoken `cl100k_base`) and pricing (input 3, cached input 0.3, output 15).
 - Baseline numbers come from re-running verbatim copies of the original `question1/agent.py` and `question2/agent.py` side by side with the new code, on the same tickets in the same run.
 - The baseline's verbose completion contains a random UUID, so its points vary by roughly ±100 from run to run. The optimized versions produce the same numbers on every run.
-- To reproduce: `python measurements/measure.py` (about 3 minutes). `measurements/baseline_q1.py` and `measurements/baseline_q2.py` are the original agents. The raw output of the run used here is in `measurements/results.json`.
-
 ---
 
 ## Question 1: single call
